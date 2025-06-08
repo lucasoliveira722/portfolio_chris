@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArticleType } from "@/interfaces/articles";
+import Header from "../pieces/header/page";
 
 export default function ObjectsPage() {
     const [objects, setObjects] = useState<ArticleType[]>([]);
@@ -18,6 +19,7 @@ export default function ObjectsPage() {
 
     return (
         <div className="container mx-auto p-8">
+            <Header />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {objects.map((article) => (
                     <article key={article.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">

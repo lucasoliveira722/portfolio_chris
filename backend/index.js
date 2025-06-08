@@ -27,10 +27,6 @@ let objetos = [
   }
 ];
 
-app.get("/api/hello", (req, res) => {
-  res.json({ message: "Olá do backend!" });
-});
-
 app.get("/api/objects", (req, res) => {
   res.json(objetos);
 });
@@ -38,3 +34,13 @@ app.get("/api/objects", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor backend rodando na porta ${PORT}`);
 });
+
+/*
+Título
+Subtítulo
+Tipo
+Imagem
+Descrição
+Data
+Autor
+*/

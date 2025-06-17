@@ -1,10 +1,12 @@
-# Blog da Agência [Nome da Agência]
+Nome da agência ainda em construção
 
-Este é o repositório do blog desenvolvido para a agência de marketing e SEO [Nome da Agência]. A aplicação web foi projetada para ser uma plataforma **robusta e escalável** para a publicação de conteúdo relevante sobre marketing digital e SEO.
+# Blog da Agência "Nome"
+
+Este é o repositório do blog desenvolvido para a agência de marketing e SEO "Nome". A aplicação web foi projetada para ser uma plataforma **robusta e escalável** para a publicação de conteúdo relevante sobre marketing digital e SEO.
 
 ## Tecnologias Utilizadas
 
-Este projeto foi construído utilizando uma **stack moderna e amplamente requisitada no mercado**, garantindo alta performance e manutenibilidade:
+Este projeto foi construído utilizando uma stack baseada em Node JS e React:
 
 * **Frontend:** Desenvolvido com **Next.js**, um framework React poderoso que oferece **renderização server-side (SSR)** e **geração de sites estáticos (SSG)**, resultando em melhor desempenho, SEO otimizado e uma excelente experiência de usuário.
 * **Backend:** Construído com **Express.js**, um framework web minimalista e flexível para Node.js, proporcionando uma **API RESTful eficiente e escalável** para gerenciar o conteúdo do blog.

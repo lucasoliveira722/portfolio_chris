@@ -1,11 +1,11 @@
-version: '3.8'
+version: "3.8"
 
 services:
   backend:
     build: ./backend
     ports:
       - "4000:4000"
-  
+
   frontend:
     build: ./frontend
     ports:
@@ -19,18 +19,3 @@ services:
       - NEXT_PUBLIC_API_URL=http://backend:4000
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
-
-#  frontend:
-#    build:
-#      context: ./frontend
-#      dockerfile: Dockerfile.dev
-#    ports:
-#      - "3000:3000"
- #   depends_on:
-  #    - backend
-  #  volumes:
-  #    - ./frontend:/app
-  #    - /app/node_modules
- #   environment:
- #     - NEXT_PUBLIC_API_URL=http://backend:4000
-#      - NODE_ENV=development
